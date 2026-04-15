@@ -4,7 +4,8 @@
   "description": "A simple mobile barcode scanner using QuaggaJS",
   "main": "index.html",
   "scripts": {
-    "start": "node secure-server.js"
+    "start": "node secure-server.js",
+    "build": "echo \"No build step required for this static site.\""
   },
   "keywords": ["barcode", "scanner", "quaggajs", "mobile"],
   "author": "",
