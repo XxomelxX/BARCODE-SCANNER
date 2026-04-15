@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuaggaJS Mobile Scanner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        #interactive {
+            margin: 20px auto;
+            width: 100%;
+            max-width: 640px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Barcode Scanner</h1>
+    <div style="margin: 20px 0;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AQR5TQb8ATI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div id="interactive" class="viewport"></div>
+    <div id="result"></div>
+    <button id="doneButton" style="display:none; margin-top: 20px; padding: 10px 20px; font-size: 16px;">Done</button>
+    <script src="https://cdn.jsdelivr.net/npm/quagga@0.12.1/dist/quagga.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

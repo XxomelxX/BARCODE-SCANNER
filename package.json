@@ -1,0 +1,15 @@
+{
+  "name": "quaggajs-mobile-scanner",
+  "version": "1.0.0",
+  "description": "A simple mobile barcode scanner using QuaggaJS",
+  "main": "index.html",
+  "scripts": {
+    "start": "node secure-server.js"
+  },
+  "keywords": ["barcode", "scanner", "quaggajs", "mobile"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "localtunnel": "^2.0.0"
+  }
+}
