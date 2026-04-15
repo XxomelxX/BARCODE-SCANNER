@@ -5,12 +5,19 @@
   "main": "index.html",
   "scripts": {
     "start": "node secure-server.js",
+    "lint": "eslint .",
     "build": "echo \"No build step required for this static site.\""
   },
-  "keywords": ["barcode", "scanner", "quaggajs", "mobile"],
+  "keywords": [
+    "barcode",
+    "scanner",
+    "quaggajs",
+    "mobile"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^10.2.0",
     "localtunnel": "^2.0.0"
   }
 }
